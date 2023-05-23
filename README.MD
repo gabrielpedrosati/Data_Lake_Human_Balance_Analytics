@@ -48,19 +48,19 @@ Some of the early adopters have agreed to share their data for research purposes
 
 JSON file contains the following fields:
 
-![](/imgs/customers_json.svg)
+![](/docs/imgs/customers_json.svg)
 
 **2. Step Trainer Records (data from the motion sensor):**
 
 JSON file contains the following fields:
 
-![](/imgs/step_trainer_json.svg)
+![](/docs/imgs/step_trainer_json.svg)
 
 **3. Accelerometer Records (from the mobile app):**
 
 JSON file contains the following fields:
 
-![](/imgs/accelerometer_json.svg)
+![](/docs/imgs/accelerometer_json.svg)
 
 ## Error reading JSON files
 
@@ -70,7 +70,7 @@ You can read more at [JSON only reading the first object in spark](https://stack
 
 ## Architecture
 
-![](/imgs/Data%20Lake.svg)
+![](/docs/imgs/Data%20Lake.svg)
 
 ### Data Lake Zones
 
@@ -111,7 +111,7 @@ The scripts used to process the data are in the `src/` folder.
 
 File handling flow:
 
-![](/imgs/Data%20Lineage.svg)
+![](/docs/imgs/Data%20Lineage.svg)
 
 ## AWS Glue Tables
 
@@ -125,12 +125,12 @@ The SQL file used to create the Glue tables can be found here: [customers_landin
 
 Customers
 
-![](/imgs/customer_landing.png)
+![](/docs/imgs/customers_landing.png)
 
 Accelerometer
 
-### ![](/imgs/accelerometer_landing.png)
+![](/docs/imgs/accelerometer_landing.png)
 
-### Customers Curated
+### Customers Trusted
 
-![](/imgs/customers_curated.png)
+![](/docs/imgs/customers_trusted.png)
